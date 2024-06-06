@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi | JeniusAcademy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="hero-small">
+            <div class="hero-tagline-small">
+                Fill the Form.
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="/assets/JeniusAcademyLogo.png" alt="JeniusAcademy Logo">
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="langganan.html">Subscription</a></li>
+                    <li><a href="testimoni.html">Testimony</a></li>
+                    <li><a href="belajar.html">Learn</a></li>
+                    <li><a href="registrasi.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="registration">
+        <div class="container-register">
+            <h2>Register</h2>
+            <form method="post">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <br>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <br>
+                <button type="button" onclick="validateData()">Register</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <img src="assets/JeniusAcademyLogo.png" alt="JeniusAcademy navbar-logo">
+        <div class="footer-main">
+            <div class="our-location">
+                <h3>Find Us!</h3>
+                <p>Lingkar Bulevar Street WA No.1, Summarecon 17142, Bekasi, West Java</p>
+            </div>
+            <div class="contact-us">
+                <h3>Contact Us!</h3>
+                <ul>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#email">
+                                <div class="footer-icon">
+                                    <img src="assets/footer/email.svg" alt="E-mail">
+                                </div>
+                                <div class="footer-txt">support@jeniusacademy.com</div>
+                            </a>
+                        </div>
+                        
+                        
+                    </li>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#whatsapp">
+                                <div class="footer-icon">
+                                    <img src="assets/footer/telephone.svg" alt="Phone Number/Whatsapp">
+                                </div>
+                                <div class="footer-txt">+62 804-169-6969</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="our-social-media">
+                <h3>Follow Our Social Media!</h3>
+                <ul>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#instagram">
+                                <div class="footer-icon">
+                                    <img src="/assets/footer/instagram.svg" alt="Instagram">
+                                </div>
+                                <div class="footer-txt">jeniusacademy</div>
+                            </a>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#facebook">
+                                <div class="footer-icon">
+                                    <img src="assets/footer/facebook.svg" alt="Facebook">
+                                </div>
+                                <div class="footer-txt">Jenius Academy</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#x">
+                                <div class="footer-icon">
+                                    <img src="assets/footer/x.svg" alt="X">
+                                </div>
+                                <div class="footer-txt">jenius.academy</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-row">
+                            <a href="#youtube">
+                                <div class="footer-icon">
+                                    <img src="assets/footer/youtube.svg" alt="Youtube">
+                                </div>
+                                <div class="footer-txt">Jenius Academy</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>COPYRIGHT (C) PT Akademi Para Jenius</h4>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
